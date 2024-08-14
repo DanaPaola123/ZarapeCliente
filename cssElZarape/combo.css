@@ -1,0 +1,240 @@
+.header {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.left-line {
+    background-color: #FF3A3A;
+    width: 20px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.main-content {
+    margin-left: 40px;
+    width: calc(100% - 40px);
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center; 
+    flex-grow: 1; 
+    gap: 10px;
+}
+
+.logo {
+    height: 150px;
+    margin-left: auto; 
+}
+
+
+.btn-custom {
+    padding: 10px 20px;
+    background-color: #FAAF08;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}       
+.btn-custom:hover {
+    background-color: #FA812F;
+}
+.banner {
+    background-color: #FA812F;
+    height: 20px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold; 
+    color: black; 
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.food-image {
+    width: 100px; 
+    height: 150px; 
+    margin-left: 200px; 
+    margin-top: -150px;
+}
+.food-image2 {
+    width: 100px; 
+    height: 150px; 
+    margin-left: 305px; 
+    margin-top: -150px;
+    height: 152px;
+}
+
+
+.pink-rectangle {
+    width: 450px; 
+    height: 200px; 
+    background-color: #FEF3E2;
+    position: absolute;
+    bottom: 300px;
+    left: 35%;
+    transform: translateX(-50%);
+    z-index: 1; 
+}
+
+.food-description {
+    font-size: 20px; 
+    margin-bottom: 10px; 
+}
+
+.price {
+    font-size: 20px; 
+    color: black;
+}
+
+.pink-rectangle2 {
+    width: 450px; 
+    height: 200px; 
+    background-color: #FEF3E2;
+    position: absolute;
+    bottom: 300px;
+    right: 5%;
+    transform: translateX(-50%);
+    z-index: 1; 
+}
+
+.pink-rectangle3 {
+    width: 450px; 
+    height: 200px;
+    background-color: #FEF3E2;
+    position: absolute;
+    bottom: 50px;
+    left: 35%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.pink-rectangle4 {
+    width: 450px; 
+    height: 200px; 
+    background-color: #FEF3E2;
+    position: absolute;
+    bottom: 50px;
+    right: 5%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.pink-rectangle5 {
+    width: 450px; 
+    height: 200px;
+    background-color: #FEF3E2;
+    position: absolute;
+    bottom: -200px;
+    left: 35%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.pink-rectangle6 {
+    width: 450px; 
+    height: 200px; 
+    background-color: #FEF3E2;
+    position: absolute;
+    bottom: -200px;
+    right: 5%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.pink-rectangle7 {
+    width: 450px; 
+    height: 200px;
+    background-color: #FEF3E2;
+    position: absolute;
+    bottom: -450px;
+    left: 35%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.pink-rectangle8 {
+    width: 450px; 
+    height: 200px; 
+    background-color: #FEF3E2;
+    position: absolute;
+    bottom: -450px;
+    right: 5%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.pink-rectangle9 {
+    width: 450px; 
+    height: 200px;
+    background-color: #FEF3E2;
+    position: absolute;
+    bottom: -700px;
+    left: 35%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.pink-rectangle10 {
+    width: 450px; 
+    height: 200px; 
+    background-color: #FEF3E2;
+    position: absolute;
+    bottom: -700px;
+    right: 5%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.pink-rectangle11 {
+    width: 450px; 
+    height: 200px;
+    background-color: #FEF3E2;
+    position: absolute;
+    bottom: -950px;
+    left: 35%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.pink-rectangle12 {
+    width: 450px; 
+    height: 200px; 
+    background-color: #FEF3E2;
+    position: absolute;
+    bottom: -950px;
+    right: 5%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.btn-custom2 {
+    padding: 15px 20px;
+    background-color: #FA812F;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 15px;
+}

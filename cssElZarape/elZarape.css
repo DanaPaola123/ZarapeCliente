@@ -1,0 +1,81 @@
+.header {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.left-line {
+    background-color: red;
+    width: 20px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.main-content {
+    margin-left: 40px;
+    width: calc(100% - 40px);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    width: 100%; 
+}
+
+.logo {
+    margin-left: auto; 
+}
+
+.button-group {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+    flex-grow: 1; 
+}
+
+.btn-custom {
+    padding: 10px 20px;
+    background-color: #FAAF08;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-custom:hover {
+    background-color: #FFA500;
+}
+
+.banner {
+    background-color: #FFA500;
+    height: 20px;
+    margin: 10px 0;
+    width: 100%; /* Asegúrate de que el banner ocupe todo el ancho disponible */
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.food-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
