@@ -1,4 +1,3 @@
-<script>
 document.addEventListener('DOMContentLoaded', function () {
     // Selecciona todos los botones con la clase 'btn-custom2'
     const addButtons = document.querySelectorAll('.btn-custom2');
@@ -10,6 +9,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
-</script>
+
 
 
