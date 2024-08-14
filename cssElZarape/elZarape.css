@@ -65,7 +65,7 @@
     background-color: #FFA500;
     height: 20px;
     margin: 10px 0;
-    width: 100%; /* Asegúrate de que el banner ocupe todo el ancho disponible */
+    width: 100%; 
 }
 
 .content {
